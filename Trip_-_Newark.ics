@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:SAP Concur
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+UID:concur-6e43d722-c4c6-4e6b-b492-e743d2fe143c
+SUMMARY:Trip Overview Summary
+DTSTART;VALUE=DATE:20250513
+DTEND;VALUE=DATE:20250515
+DTSTAMP:20250513
+DESCRIPTION:WESTIN PRINCETON – Check-in
+    \n
+    \nTraveler: Swamy Sana
+    \n
+    \nCheck-in: Tuesday, 05/13/2025 12:00 am
+    \nRoom Type: FLEXIBLE RATE, GUEST ROOM, 2 DOUBLE MAX OCCUPANCY- 4 GUESTS GUEST ROOM, 2 DOUBLE, MINI FRIDGE, 264SQFT/24SQM, WIRELESS INTERNET, COMPLIMENTARY, COFFEE/TEA MAKER
+    \n
+    \nAddress:
+    \n201 VILLAGE BLVD PRINCETON NJ 08540,\n PRINCETON, 08540,\n US
+    \nPhone: 1-609-452-7900
+    \n
+    \nBooking Source Confirmation: 81867430
+    \nVendor Confirmation: 81867430
+    \nRecord Locator: 81867430
+    \n
+    \nEstimated Cost: USD 372.53
+    \n\n\nWESTIN PRINCETON – Checkout
+    \n
+    \nTraveler: Swamy Sana
+    \n
+    \nCheckout: Wednesday, 05/14/2025 12:00 am
+    \nRoom Type:FLEXIBLE RATE, GUEST ROOM, 2 DOUBLE MAX OCCUPANCY- 4 GUESTS GUEST ROOM, 2 DOUBLE, MINI FRIDGE, 264SQFT/24SQM, WIRELESS INTERNET, COMPLIMENTARY, COFFEE/TEA MAKER
+    \n
+    \nAddress:
+    \n201 VILLAGE BLVD PRINCETON NJ 08540,\n PRINCETON, 08540,\n US
+    \nPhone: 1-609-452-7900
+    \n
+    \nBooking Source Confirmation: 81867430
+    \nVendor Confirmation: 81867430
+    \nRecord Locator: 81867430
+    \n
+    \nEstimated Cost: USD 372.53
+    \n\n\nAir Journey IND - EWR
+    \n
+    \nTraveler: Swamy Sana
+    \n
+    \nFlight Segment  IND - EWR
+    \nDeparture: Tuesday, 05/13/2025 06:52 pm
+    \nLocation: Indianapolis, IN (IND)
+    \nTerminal: 
+    \nFlight number: 3571
+    \nSeat: 15D
+    \n
+    \nArrival: Tuesday, 05/13/2025 09:00 pm
+    \nLocation: Newark, NJ (EWR)
+    \nTerminal: TERMINAL C
+    \n
+    \nConfirmation: YDYPVQ
+    \n\n\nAir Journey EWR - IND
+    \n
+    \nTraveler: Swamy Sana
+    \n
+    \nFlight Segment  EWR - IND
+    \nDeparture: Wednesday, 05/14/2025 06:48 pm
+    \nLocation: Newark, NJ (EWR)
+    \nTerminal: TERMINAL C
+    \nFlight number: 3519
+    \nSeat: 22A
+    \n
+    \nArrival: Wednesday, 05/14/2025 09:15 pm
+    \nLocation: Indianapolis, IN (IND)
+    \nTerminal: 
+    \n
+    \nConfirmation: YDYPVQ
+    \n\n\n
+STATUS:FREE
+SEQUENCE:0
+LOCATION:
+END:VEVENT
+
+END:VCALENDAR
