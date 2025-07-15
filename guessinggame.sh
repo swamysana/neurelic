@@ -2,12 +2,15 @@
 # File: guessinggame.sh
 
 # Function to count regular files in the current directory.
-# It excludes directories, symbolic links, and other special files.
+# This version correctly counts all regular files, including hidden ones,
+# but excludes directories, symbolic links, and other special files.
 count_regular_files() {
-  # ls -l lists files in long format
-  # grep "^-" filters for lines starting with '-', which indicates a regular file
-  # wc -l counts the number of lines, giving us the file count
-  ls -l | grep "^-" | wc -l
+  # find . -maxdepth 1 -type f
+  # . : Start search in the current directory.
+  # -maxdepth 1 : Limit the search to the current directory only (do not descend into subdirectories).
+  # -type f : Only match regular files (this includes hidden files like .bashrc if they are regular files).
+  # wc -l : Counts the number of lines, which corresponds to the number of files found.
+  find . -maxdepth 1 -type f | wc -l
 }
 
 # Main function for the guessing game logic
@@ -16,7 +19,7 @@ main_game_logic() {
   local user_guess
 
   echo "Welcome to the File Guessing Game!"
-  echo "You need to guess how many regular files are in the current directory."
+  echo "You need to guess how many regular files are in the current directory (including hidden ones)."
 
   # Start a loop that continues until the user guesses correctly
   while true; do
